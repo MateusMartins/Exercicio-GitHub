@@ -10,7 +10,7 @@ public class introduçãoaojava {
     public static void main(String[] args) {
         String nome = JOptionPane.showInputDialog("Digite o seu nome para efetuar login");
         
-        String senha = JOptionPane.showInputDialog("Digte sua senha: ");
+        String senha = JOptionPane.showInputDialog("Digte sua senha para efetuar login");
         
         if(nome.equals("joao") && senha.equals("123456")){
             JOptionPane.showMessageDialog(null, "Acesso Permitido");
