@@ -8,11 +8,11 @@ import javax.swing.JOptionPane;
 
 public class introduçãoaojava {
     public static void main(String[] args) {
-        String nome = JOptionPane.showInputDialog("Digite o seu nome para efetuar login");
+        String name = JOptionPane.showInputDialog("Digite o seu nome para efetuar login");
         
-        String senha = JOptionPane.showInputDialog("Digte sua senha para efetuar login");
+        String pass = JOptionPane.showInputDialog("Digte sua senha para efetuar login");
         
-        if(nome.equals("joao") && senha.equals("123456")){
+        if(name.equals("joao") && pass.equals("123456")){
             JOptionPane.showMessageDialog(null, "Acesso Permitido");
         }
         else{
