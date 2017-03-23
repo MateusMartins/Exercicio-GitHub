@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class introduçãoaojava {
     public static void main(String[] args) {
-        String nome = JOptionPane.showInputDialog("Digite o seu nome: ");
+        String nome = JOptionPane.showInputDialog("Digite o seu nome para efetuar login");
         
         String senha = JOptionPane.showInputDialog("Digte sua senha: ");
         
