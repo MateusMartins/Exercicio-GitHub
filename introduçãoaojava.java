@@ -12,7 +12,7 @@ public class introduçãoaojava {
         
         String senha = JOptionPane.showInputDialog("Digte sua senha: ");
         
-        if(nome.equals("maria") && senha.equals("123456")){
+        if(nome.equals("joao") && senha.equals("123456")){
             JOptionPane.showMessageDialog(null, "Acesso Permitido");
         }
         else{
